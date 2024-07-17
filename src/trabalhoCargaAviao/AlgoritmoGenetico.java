@@ -58,7 +58,7 @@ public class AlgoritmoGenetico {
         double volumeTotal = calcularVolumeTotal(melhorCromossomo);
 
         System.out.println("\nMelhor carga do avião:");
-        System.out.println("Massa total: " + String.format("%.3f", massaTotal) + " kg");
+        System.out.println("Peso total: " + String.format("%.3f", massaTotal) + " kg");
         System.out.println("Volume total: " + String.format("%.3f", volumeTotal / 1000000) + " m³"); // volume em m³
     }
 
